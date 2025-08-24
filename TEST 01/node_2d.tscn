@@ -7,3 +7,7 @@
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(532, 283)
 texture = ExtResource("1_go4gb")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
